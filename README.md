@@ -1,7 +1,7 @@
 ### Hi there 👋, Ramzus Here
 
 Hey there, I'm Marcel Marquez. I'm Head of Engineering, but also a full-stack developer, a software architect and a Tech enthusiast to summarize.
-I'm based in France, at Lille, and currently working at [adeo](https://www.adeo.com/).
+I'm based in France, at Lille, and currently working at [Adeo](https://www.adeo.com/).
 Have been previously working:
 - at Leroy Merlin France as an Engineering Manager;
 - at Adeo as a Software Architect and a Tech Leader;
