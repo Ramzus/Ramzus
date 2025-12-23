@@ -9,7 +9,7 @@
   </p>
 
   <!-- Socials -->
-  <p>
+  <div>
     <a href="https://github.com/Ramzus">
       <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
     </a>
@@ -19,7 +19,7 @@
     <a href="https://whoiam.marcel.marquez.fr">
       <img src="https://img.shields.io/badge/Interactive_Bio-FF5722?style=for-the-badge&logo=html5&logoColor=white" alt="Interactive Bio" />
     </a>
-  </p>
+  </div>
 </div>
 
 ### 👨‍💻 Work History
@@ -36,15 +36,17 @@
 ### 🛠️ Tech Stack
 
 <div align="center">
-  <img src="https://github.com/Ramzus/Ramzus/blob/main/images/java.svg" width="45" alt="Java" style="margin: 10px"/>
-  <img src="https://github.com/Ramzus/Ramzus/blob/main/images/js.svg" width="45" alt="JavaScript" style="margin: 10px"/>
-  <img src="https://github.com/Ramzus/Ramzus/blob/main/images/nodejs.svg" width="45" alt="NodeJS" style="margin: 10px"/>
-  <img src="https://github.com/Ramzus/Ramzus/blob/main/images/sql.svg" width="45" alt="SQL" style="margin: 10px"/>
-  <img src="https://github.com/Ramzus/Ramzus/blob/main/images/git.svg" width="45" alt="Git" style="margin: 10px"/>
-  <img src="https://github.com/Ramzus/Ramzus/blob/main/images/html.svg" width="45" alt="HTML" style="margin: 10px"/>
-  <img src="https://github.com/Ramzus/Ramzus/blob/main/images/css.svg" width="45" alt="CSS" style="margin: 10px"/>
-  <img src="https://github.com/Ramzus/Ramzus/blob/main/images/bootstrap.svg" width="45" alt="Bootstrap" style="margin: 10px"/>
-  <img src="https://github.com/Ramzus/Ramzus/blob/main/images/go.png" width="45" alt="Go" style="margin: 10px"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="45" alt="Java" style="margin: 10px"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="45" alt="JavaScript" style="margin: 10px"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="45" alt="NodeJS" style="margin: 10px"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" width="45" alt="Vue" style="margin: 10px"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg" width="45" alt="NestJS" style="margin: 10px"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" width="45" alt="Go" style="margin: 10px"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="45" alt="PostgreSQL" style="margin: 10px"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="45" alt="Git" style="margin: 10px"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" width="45" alt="Kubernetes" style="margin: 10px"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" width="45" alt="GCP" style="margin: 10px"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="45" alt="AWS" style="margin: 10px"/>
 </div>
 
 ### 📈 GitHub Stats
