@@ -12,10 +12,9 @@
     <a href="https://github.com/Ramzus">
       <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
     </a>
-    <!-- Uncomment and add your LinkedIn profile -->
-    <!-- <a href="https://www.linkedin.com/in/YOUR_PROFILE">
+    <a href="https://www.linkedin.com/in/marcel-marquez/">
       <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-    </a> -->
+    </a>
   </p>
 </div>
 
