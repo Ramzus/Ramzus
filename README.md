@@ -18,8 +18,6 @@
   </p>
 </div>
 
-<br/>
-
 ### 👨‍💻 Work History
 
 | Role | Company |
@@ -30,8 +28,6 @@
 | Solution Architect & Tech Leader | Nexity |
 | Solution Architect & Tech Leader | Sopra |
 | Developer | Inetum (GFI) |
-
-<br/>
 
 ### 🛠️ Tech Stack
 
@@ -47,8 +43,6 @@
   <img src="https://github.com/Ramzus/Ramzus/blob/main/images/go.png" width="45" alt="Go" style="margin: 10px"/>
 </div>
 
-<br/>
-
 ### 📈 GitHub Stats
 
 <div align="center">
@@ -58,8 +52,6 @@
   <a href="https://github.com/ramzus/github-readme-stats">
     <img src="https://github-readme-stats-ramzus.vercel.app/api/top-langs/?username=ramzus&layout=compact&theme=gotham&hide_border=true" height="180" alt="Top Languages" />
   </a>
-</div>
-
-<div align="center">
+  <br/>
   <img src="https://komarev.com/ghpvc/?username=ramzus&color=blue&style=flat-square" alt="Profile Views" />
 </div>
