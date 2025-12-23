@@ -1,16 +1,66 @@
-### Hi there 👋, Ramzus Here
+<div align="center">
+  <h1>Hi there 👋, I'm Ramzus</h1>
+  <h3>Head of Engineering | Full-stack Developer | Software Architect</h3>
+  
+  <p>
+    I'm <b>Marcel Marquez</b>, a Tech enthusiast based in <b>Lille, France 🇫🇷</b>.<br>
+    Currently working at <a href="https://www.adeo.com/"><b>Adeo</b></a>.
+  </p>
 
-Hey there, I'm Marcel Marquez. I'm Head of Engineering, but also a full-stack developer, a software architect and a Tech enthusiast to summarize.
-I'm based in France, at Lille, and currently working at [Adeo](https://www.adeo.com/).
+  <!-- Socials -->
+  <p>
+    <a href="https://github.com/Ramzus">
+      <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    </a>
+    <!-- Uncomment and add your LinkedIn profile -->
+    <!-- <a href="https://www.linkedin.com/in/YOUR_PROFILE">
+      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a> -->
+  </p>
+</div>
 
-Have been previously working:
-- at Leroy Merlin France as an Engineering Manager;
-- at Adeo as a Software Architect and a Tech Leader;
-- at Nexity as a Solution Architect and a Tech Leader;
-- at Sopra as a Solution Architect and a Tech Leader;
-- at Inetum (previously GFI) as a Developer.
+<br/>
 
-## Programming Languages
-<img src = 'https://github.com/Ramzus/Ramzus/blob/main/images/java.svg' width='30'/><img src = 'https://github.com/Ramzus/Ramzus/blob/main/images/js.svg' width='30'/><img src = 'https://github.com/Ramzus/Ramzus/blob/main/images/nodejs.svg' width='30'/><img src = 'https://github.com/Ramzus/Ramzus/blob/main/images/sql.svg' width='30'/><img src = 'https://github.com/Ramzus/Ramzus/blob/main/images/git.svg' width='30'/><img src = 'https://github.com/Ramzus/Ramzus/blob/main/images/html.svg' width='30'/><img src = 'https://github.com/Ramzus/Ramzus/blob/main/images/css.svg' width='30'/><img src = 'https://github.com/Ramzus/Ramzus/blob/main/images/bootstrap.svg' width='30'/><img src = 'https://github.com/Ramzus/Ramzus/blob/main/images/go.png' width='30'/>
+### 👨‍💻 Work History
 
-[![Mes stats Github](https://github-readme-stats-ramzus.vercel.app/api?username=ramzus&count_private=true&show_icons=true&theme=gotham)](https://github.com/ramzus/github-readme-stats)
+| Role | Company |
+| :--- | :--- |
+| **Head of Engineering** | **Adeo** (Current) |
+| Engineering Manager | Leroy Merlin France |
+| Software Architect & Tech Leader | Adeo |
+| Solution Architect & Tech Leader | Nexity |
+| Solution Architect & Tech Leader | Sopra |
+| Developer | Inetum (GFI) |
+
+<br/>
+
+### 🛠️ Tech Stack
+
+<div align="center">
+  <img src="https://github.com/Ramzus/Ramzus/blob/main/images/java.svg" width="45" alt="Java" style="margin: 10px"/>
+  <img src="https://github.com/Ramzus/Ramzus/blob/main/images/js.svg" width="45" alt="JavaScript" style="margin: 10px"/>
+  <img src="https://github.com/Ramzus/Ramzus/blob/main/images/nodejs.svg" width="45" alt="NodeJS" style="margin: 10px"/>
+  <img src="https://github.com/Ramzus/Ramzus/blob/main/images/sql.svg" width="45" alt="SQL" style="margin: 10px"/>
+  <img src="https://github.com/Ramzus/Ramzus/blob/main/images/git.svg" width="45" alt="Git" style="margin: 10px"/>
+  <img src="https://github.com/Ramzus/Ramzus/blob/main/images/html.svg" width="45" alt="HTML" style="margin: 10px"/>
+  <img src="https://github.com/Ramzus/Ramzus/blob/main/images/css.svg" width="45" alt="CSS" style="margin: 10px"/>
+  <img src="https://github.com/Ramzus/Ramzus/blob/main/images/bootstrap.svg" width="45" alt="Bootstrap" style="margin: 10px"/>
+  <img src="https://github.com/Ramzus/Ramzus/blob/main/images/go.png" width="45" alt="Go" style="margin: 10px"/>
+</div>
+
+<br/>
+
+### 📈 GitHub Stats
+
+<div align="center">
+  <a href="https://github.com/ramzus/github-readme-stats">
+    <img src="https://github-readme-stats-ramzus.vercel.app/api?username=ramzus&count_private=true&show_icons=true&theme=gotham&hide_border=true" height="180" alt="Ramzus' GitHub Stats" />
+  </a>
+  <a href="https://github.com/ramzus/github-readme-stats">
+    <img src="https://github-readme-stats-ramzus.vercel.app/api/top-langs/?username=ramzus&layout=compact&theme=gotham&hide_border=true" height="180" alt="Top Languages" />
+  </a>
+</div>
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=ramzus&color=blue&style=flat-square" alt="Profile Views" />
+</div>
