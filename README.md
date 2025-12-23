@@ -10,15 +10,9 @@
 
   <!-- Socials -->
   <div>
-    <a href="https://github.com/Ramzus">
-      <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-    </a>
-    <a href="https://www.linkedin.com/in/marcel-marquez/">
-      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-    </a>
-    <a href="https://whoiam.marcel.marquez.fr">
-      <img src="https://img.shields.io/badge/Interactive_Bio-FF5722?style=for-the-badge&logo=html5&logoColor=white" alt="Interactive Bio" />
-    </a>
+    <a href="https://github.com/Ramzus"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+    <a href="https://www.linkedin.com/in/marcel-marquez/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+    <a href="https://whoiam.marcel.marquez.fr"><img src="https://img.shields.io/badge/Interactive_Bio-FF5722?style=for-the-badge&logo=html5&logoColor=white" alt="Interactive Bio" /></a>
   </div>
 </div>
 
@@ -52,12 +46,8 @@
 ### 📈 GitHub Stats
 
 <div align="center">
-  <a href="https://github.com/ramzus/github-readme-stats">
-    <img src="https://github-readme-stats-ramzus.vercel.app/api?username=ramzus&count_private=true&show_icons=true&theme=gotham&hide_border=true" height="180" alt="Ramzus' GitHub Stats" />
-  </a>
-  <a href="https://github.com/ramzus/github-readme-stats">
-    <img src="https://github-readme-stats-ramzus.vercel.app/api/top-langs/?username=ramzus&layout=compact&theme=gotham&hide_border=true" height="180" alt="Top Languages" />
-  </a>
+  <a href="https://github.com/ramzus/github-readme-stats"><img src="https://github-readme-stats-ramzus.vercel.app/api?username=ramzus&count_private=true&show_icons=true&theme=gotham&hide_border=true" height="180" alt="Ramzus' GitHub Stats" /></a>
+  <a href="https://github.com/ramzus/github-readme-stats"><img src="https://github-readme-stats-ramzus.vercel.app/api/top-langs/?username=ramzus&layout=compact&theme=gotham&hide_border=true" height="180" alt="Top Languages" /></a>
   <br/>
   <img src="https://komarev.com/ghpvc/?username=ramzus&color=blue&style=flat-square" alt="Profile Views" />
 </div>
