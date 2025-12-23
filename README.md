@@ -48,6 +48,8 @@
 <div align="center">
   <a href="https://github.com/ramzus/github-readme-stats"><img src="https://github-readme-stats-ramzus.vercel.app/api?username=ramzus&count_private=true&show_icons=true&theme=gotham&hide_border=true" height="180" alt="Ramzus' GitHub Stats" /></a>
   <a href="https://github.com/ramzus/github-readme-stats"><img src="https://github-readme-stats-ramzus.vercel.app/api/top-langs/?username=ramzus&layout=compact&theme=gotham&hide_border=true" height="180" alt="Top Languages" /></a>
-  <br/>
-  <img src="https://komarev.com/ghpvc/?username=ramzus&color=blue&style=flat-square" alt="Profile Views" />
 </div>
+
+<br/>
+
+<img src="https://komarev.com/ghpvc/?username=ramzus&color=blue&style=flat-square" alt="Profile Views" />
