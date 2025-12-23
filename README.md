@@ -4,7 +4,8 @@
   
   <p>
     I'm <b>Marcel Marquez</b>, a Tech enthusiast based in <b>Lille, France 🇫🇷</b>.<br>
-    Currently working at <a href="https://www.adeo.com/"><b>Adeo</b></a>.
+    Currently working at <a href="https://www.adeo.com/"><b>Adeo</b></a>.<br>
+    Check out my <a href="https://whoiam.marcel.marquez.fr"><b>Interactive Bio</b></a> 🚀
   </p>
 
   <!-- Socials -->
@@ -14,6 +15,9 @@
     </a>
     <a href="https://www.linkedin.com/in/marcel-marquez/">
       <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+    <a href="https://whoiam.marcel.marquez.fr">
+      <img src="https://img.shields.io/badge/Interactive_Bio-FF5722?style=for-the-badge&logo=html5&logoColor=white" alt="Interactive Bio" />
     </a>
   </p>
 </div>
