@@ -12,6 +12,7 @@
   <div>
     <a href="https://www.linkedin.com/in/marcel-marquez/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
     <a href="https://whoiam.marcel.marquez.fr"><img src="https://img.shields.io/badge/Interactive_Bio-FF5722?style=for-the-badge&logo=html5&logoColor=white" alt="Interactive Bio" /></a>
+    <a href="https://codetime.dev"><img src="https://shields.jannchie.com/endpoint?style=for-the-badge&color=222&url=https%3A%2F%2Fapi.codetime.dev%2Fv3%2Fusers%2Fshield%3Fuid%3D35751" alt="CodeTime Badge" /></a>
     <img src="https://komarev.com/ghpvc/?username=ramzus&color=blue&style=for-the-badge" alt="Profile Views" />
   </div>
 </div>
