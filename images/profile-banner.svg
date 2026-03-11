@@ -31,16 +31,17 @@
 
     <text x="0" y="103" fill="#fff8f0" font-family="Georgia, 'Times New Roman', serif" font-size="58" font-weight="700">Marcel Marquez</text>
     <text x="0" y="146" fill="#ffe8cf" font-family="'Trebuchet MS', Verdana, sans-serif" font-size="28">Engineering leadership with builder energy</text>
-    <text x="0" y="194" fill="#f7f2eb" font-family="'Trebuchet MS', Verdana, sans-serif" font-size="20">Architecture, delivery, and product development</text>
-    <text x="0" y="222" fill="#f7f2eb" font-family="'Trebuchet MS', Verdana, sans-serif" font-size="20">for teams that need calm systems and fast outcomes.</text>
+    <text x="0" y="190" fill="#f7f2eb" font-family="'Trebuchet MS', Verdana, sans-serif" font-size="18" textLength="360" lengthAdjust="spacingAndGlyphs">Architecture, delivery, and</text>
+    <text x="0" y="216" fill="#f7f2eb" font-family="'Trebuchet MS', Verdana, sans-serif" font-size="18" textLength="380" lengthAdjust="spacingAndGlyphs">product development for teams</text>
+    <text x="0" y="242" fill="#f7f2eb" font-family="'Trebuchet MS', Verdana, sans-serif" font-size="18" textLength="430" lengthAdjust="spacingAndGlyphs">that need calm systems and fast outcomes.</text>
   </g>
 
-  <g transform="translate(962 162)">
-    <rect width="190" height="38" rx="19" fill="#10233d" fill-opacity="0.36" stroke="#f7f2eb" stroke-opacity="0.22" />
-    <rect y="50" width="190" height="38" rx="19" fill="#10233d" fill-opacity="0.3" stroke="#f7f2eb" stroke-opacity="0.2" />
-    <rect y="100" width="190" height="38" rx="19" fill="#10233d" fill-opacity="0.26" stroke="#f7f2eb" stroke-opacity="0.18" />
+  <g transform="translate(996 170)">
+    <rect width="156" height="36" rx="18" fill="#10233d" fill-opacity="0.36" stroke="#f7f2eb" stroke-opacity="0.22" />
+    <rect y="48" width="156" height="36" rx="18" fill="#10233d" fill-opacity="0.3" stroke="#f7f2eb" stroke-opacity="0.2" />
+    <rect y="96" width="156" height="36" rx="18" fill="#10233d" fill-opacity="0.26" stroke="#f7f2eb" stroke-opacity="0.18" />
     <text x="26" y="25" fill="#fff8f0" font-family="'Trebuchet MS', Verdana, sans-serif" font-size="20">Leadership</text>
-    <text x="26" y="75" fill="#fff8f0" font-family="'Trebuchet MS', Verdana, sans-serif" font-size="20">Architecture</text>
-    <text x="26" y="125" fill="#fff8f0" font-family="'Trebuchet MS', Verdana, sans-serif" font-size="20">Delivery</text>
+    <text x="19" y="73" fill="#fff8f0" font-family="'Trebuchet MS', Verdana, sans-serif" font-size="20">Architecture</text>
+    <text x="26" y="121" fill="#fff8f0" font-family="'Trebuchet MS', Verdana, sans-serif" font-size="20">Delivery</text>
   </g>
 </svg>
