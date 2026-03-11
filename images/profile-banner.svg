@@ -1,47 +1,148 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
-  <title>Marcel Marquez profile banner</title>
-  <desc>Minimal profile banner for Marcel Marquez, Head of Engineering</desc>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 340" role="img" aria-labelledby="bannerTitle bannerDesc">
+  <title id="bannerTitle">Marcel Marquez — Head of Engineering</title>
+  <desc id="bannerDesc">Dark RPG themed profile banner for Marcel Marquez</desc>
+
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0f2238" />
-      <stop offset="55%" stop-color="#153f52" />
-      <stop offset="100%" stop-color="#d97836" />
+    <!-- Deep dark background: near-black to very dark navy -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#06080d" />
+      <stop offset="40%"  stop-color="#0b1120" />
+      <stop offset="75%"  stop-color="#111a2e" />
+      <stop offset="100%" stop-color="#1a0d05" />
     </linearGradient>
-    <linearGradient id="panel" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0b1627" stop-opacity="0.68" />
-      <stop offset="100%" stop-color="#0b1627" stop-opacity="0.18" />
-    </linearGradient>
-    <filter id="soft-blur" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="24" />
+
+    <!-- Ember glow on the right side behind the avatar -->
+    <radialGradient id="emberGlow" cx="82%" cy="55%" r="38%">
+      <stop offset="0%"   stop-color="#c8510a" stop-opacity="0.55" />
+      <stop offset="45%"  stop-color="#7a2e06" stop-opacity="0.28" />
+      <stop offset="100%" stop-color="#06080d" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Subtle blue ambient on the left -->
+    <radialGradient id="blueAmbient" cx="18%" cy="42%" r="42%">
+      <stop offset="0%"   stop-color="#0d3660" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#06080d" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Avatar circular clip -->
+    <clipPath id="avatarClip">
+      <circle cx="985" cy="170" r="106" />
+    </clipPath>
+
+    <!-- Soft outer glow filter for avatar ring -->
+    <filter id="runeGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- Text shadow / ember glow for name -->
+    <filter id="nameGlow" x="-10%" y="-30%" width="120%" height="160%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="8" result="blur"/>
+      <feFlood flood-color="#d97836" flood-opacity="0.7" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="shadow"/>
+      <feMerge><feMergeNode in="shadow"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- Subtle glow for rune ornaments -->
+    <filter id="subtleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
 
-  <rect width="1200" height="320" rx="30" fill="url(#bg)" />
+  <!-- ── Background layers ── -->
+  <rect width="1200" height="340" rx="0" fill="url(#bgGrad)" />
+  <rect width="1200" height="340" fill="url(#emberGlow)" />
+  <rect width="1200" height="340" fill="url(#blueAmbient)" />
 
-  <circle cx="1040" cy="248" r="210" fill="#ffbe88" fill-opacity="0.18" filter="url(#soft-blur)" />
-  <circle cx="130" cy="40" r="130" fill="#08101c" fill-opacity="0.35" filter="url(#soft-blur)" />
+  <!-- ── Top & bottom border lines (aged gold) ── -->
+  <rect x="0" y="0"   width="1200" height="3" fill="#c8860a" fill-opacity="0.55" />
+  <rect x="0" y="337" width="1200" height="3" fill="#c8860a" fill-opacity="0.35" />
 
-  <rect x="54" y="42" width="690" height="236" rx="28" fill="url(#panel)" stroke="#f6eee5" stroke-opacity="0.12" />
+  <!-- ── Vertical divider between text and avatar zone ── -->
+  <line x1="840" y1="36" x2="840" y2="304" stroke="#c8860a" stroke-opacity="0.25" stroke-width="1" stroke-dasharray="4 7" />
 
-  <path d="M760 72 H1080" stroke="#f6eee5" stroke-opacity="0.18" stroke-width="2" />
-  <path d="M812 112 H1128" stroke="#f6eee5" stroke-opacity="0.14" stroke-width="2" />
+  <!-- ── Corner rune ornaments (top-left) ── -->
+  <!-- bracket top-left -->
+  <path d="M28 16 L16 16 L16 48" fill="none" stroke="#c8860a" stroke-opacity="0.7" stroke-width="2" filter="url(#subtleGlow)" />
+  <!-- bracket bottom-left -->
+  <path d="M16 292 L16 324 L28 324" fill="none" stroke="#c8860a" stroke-opacity="0.7" stroke-width="2" filter="url(#subtleGlow)" />
+  <!-- small diamond ornament top-left -->
+  <polygon points="22,8 28,14 22,20 16,14" fill="#c8860a" fill-opacity="0.6" filter="url(#subtleGlow)" />
 
-  <g transform="translate(90 78)">
-    <rect width="164" height="34" rx="17" fill="#f6eee5" fill-opacity="0.12" stroke="#f6eee5" stroke-opacity="0.2" />
-    <text x="18" y="23" fill="#f6eee5" font-family="Verdana, sans-serif" font-size="16" letter-spacing="1.8">LILLE, FRANCE</text>
+  <!-- ── Corner rune ornaments (top-right) ── -->
+  <path d="M1172 16 L1184 16 L1184 48" fill="none" stroke="#c8860a" stroke-opacity="0.7" stroke-width="2" filter="url(#subtleGlow)" />
+  <path d="M1184 292 L1184 324 L1172 324" fill="none" stroke="#c8860a" stroke-opacity="0.7" stroke-width="2" filter="url(#subtleGlow)" />
+  <polygon points="1178,8 1184,14 1178,20 1172,14" fill="#c8860a" fill-opacity="0.6" filter="url(#subtleGlow)" />
 
-    <text x="0" y="92" fill="#fff7ee" font-family="Georgia, 'Times New Roman', serif" font-size="60" font-weight="700">Marcel Marquez</text>
-    <text x="0" y="132" fill="#ffd9bb" font-family="Verdana, sans-serif" font-size="24">Head of Engineering | Software Architect | Builder</text>
-    <text x="0" y="178" fill="#f6eee5" font-family="Verdana, sans-serif" font-size="19">I build engineering organizations, delivery systems, and technical foundations</text>
-    <text x="0" y="206" fill="#f6eee5" font-family="Verdana, sans-serif" font-size="19">that help teams ship ambitious products with clarity and confidence.</text>
+  <!-- ── Decorative horizontal rune bars (left panel top / bottom) ── -->
+  <!-- Top bar -->
+  <line x1="52" y1="58" x2="300" y2="58" stroke="#c8860a" stroke-opacity="0.4" stroke-width="1" />
+  <circle cx="52"  cy="58" r="3" fill="#c8860a" fill-opacity="0.6" />
+  <circle cx="300" cy="58" r="3" fill="#c8860a" fill-opacity="0.4" />
+  <!-- Bottom bar -->
+  <line x1="52" y1="282" x2="300" y2="282" stroke="#c8860a" stroke-opacity="0.4" stroke-width="1" />
+  <circle cx="52"  cy="282" r="3" fill="#c8860a" fill-opacity="0.6" />
+  <circle cx="300" cy="282" r="3" fill="#c8860a" fill-opacity="0.4" />
+
+  <!-- ── Faint rune glyphs scattered for atmosphere ── -->
+  <!-- Rune-like shapes: simplified Elden Ring / Norse feel -->
+  <text x="66" y="52" fill="#c8860a" fill-opacity="0.18" font-family="serif" font-size="22" transform="rotate(-12, 66, 52)">ᚠ</text>
+  <text x="700" y="310" fill="#c8860a" fill-opacity="0.14" font-family="serif" font-size="28" transform="rotate(8, 700, 310)">ᚢ</text>
+  <text x="760" y="44" fill="#c8860a" fill-opacity="0.12" font-family="serif" font-size="22" transform="rotate(-6, 760, 44)">ᚱ</text>
+  <text x="44"  y="180" fill="#c8860a" fill-opacity="0.10" font-family="serif" font-size="34" transform="rotate(90, 44, 180)">ᚦ</text>
+
+  <!-- ── Location pill ── -->
+  <rect x="62" y="74" width="168" height="30" rx="15" fill="#c8860a" fill-opacity="0.12" stroke="#c8860a" stroke-opacity="0.35" stroke-width="1" />
+  <text x="146" y="94" fill="#e8c090" font-family="'Trebuchet MS', Verdana, sans-serif" font-size="13" letter-spacing="2.5" text-anchor="middle">LILLE · FRANCE</text>
+
+  <!-- ── Name ── -->
+  <text x="62" y="168" fill="#f5e6cc" font-family="Georgia, 'Times New Roman', serif" font-size="64" font-weight="700" letter-spacing="1" filter="url(#nameGlow)">Marcel</text>
+  <text x="62" y="238" fill="#f5e6cc" font-family="Georgia, 'Times New Roman', serif" font-size="64" font-weight="700" letter-spacing="1" filter="url(#nameGlow)">Marquez</text>
+
+  <!-- ── Title line ── -->
+  <text x="64" y="272" fill="#d4956a" font-family="'Trebuchet MS', Verdana, sans-serif" font-size="18" letter-spacing="2">HEAD OF ENGINEERING  ·  SOFTWARE ARCHITECT</text>
+
+  <!-- ── Three role pills (right column, left of avatar) ── -->
+  <g transform="translate(858 116)">
+    <!-- Leadership -->
+    <rect x="0" y="0"  width="98" height="30" rx="15" fill="#c8860a" fill-opacity="0.14" stroke="#c8860a" stroke-opacity="0.40" stroke-width="1"/>
+    <text x="49" y="20" fill="#e8c090" font-family="'Trebuchet MS', Verdana, sans-serif" font-size="13" letter-spacing="1.8" text-anchor="middle">LEAD</text>
+    <!-- Architecture -->
+    <rect x="0" y="40" width="98" height="30" rx="15" fill="#c8860a" fill-opacity="0.10" stroke="#c8860a" stroke-opacity="0.32" stroke-width="1"/>
+    <text x="49" y="60" fill="#e8c090" font-family="'Trebuchet MS', Verdana, sans-serif" font-size="13" letter-spacing="1.8" text-anchor="middle">ARCH</text>
+    <!-- Delivery -->
+    <rect x="0" y="80" width="98" height="30" rx="15" fill="#c8860a" fill-opacity="0.08" stroke="#c8860a" stroke-opacity="0.26" stroke-width="1"/>
+    <text x="49" y="100" fill="#e8c090" font-family="'Trebuchet MS', Verdana, sans-serif" font-size="13" letter-spacing="1.8" text-anchor="middle">SHIP</text>
   </g>
 
-  <g transform="translate(905 158)">
-    <rect width="210" height="36" rx="18" fill="#0d1d31" fill-opacity="0.34" stroke="#f6eee5" stroke-opacity="0.16" />
-    <rect y="48" width="210" height="36" rx="18" fill="#0d1d31" fill-opacity="0.28" stroke="#f6eee5" stroke-opacity="0.14" />
-    <rect y="96" width="210" height="36" rx="18" fill="#0d1d31" fill-opacity="0.24" stroke="#f6eee5" stroke-opacity="0.12" />
-    <text x="25" y="24" fill="#fff7ee" font-family="Verdana, sans-serif" font-size="19">Leadership</text>
-    <text x="25" y="72" fill="#fff7ee" font-family="Verdana, sans-serif" font-size="19">Architecture</text>
-    <text x="25" y="120" fill="#fff7ee" font-family="Verdana, sans-serif" font-size="19">Delivery</text>
-  </g>
+  <!-- ── Avatar: outer runic ring ── -->
+  <!-- Decorative outer dashed orbit -->
+  <circle cx="985" cy="170" r="120" fill="none" stroke="#c8860a" stroke-opacity="0.20" stroke-width="1" stroke-dasharray="6 9" />
+  <!-- Solid ember ring -->
+  <circle cx="985" cy="170" r="110" fill="none" stroke="#c8860a" stroke-opacity="0.55" stroke-width="2.5" filter="url(#runeGlow)" />
+  <!-- Inner accent ring -->
+  <circle cx="985" cy="170" r="107" fill="none" stroke="#f5e6cc" stroke-opacity="0.12" stroke-width="1" />
+
+  <!-- Cardinal rune marks on the ring -->
+  <polygon points="985,54 991,66 985,62 979,66" fill="#c8860a" fill-opacity="0.75" />
+  <polygon points="985,286 991,274 985,278 979,274" fill="#c8860a" fill-opacity="0.55" />
+  <polygon points="869,170 881,164 877,170 881,176" fill="#c8860a" fill-opacity="0.55" />
+  <polygon points="1101,170 1089,164 1093,170 1089,176" fill="#c8860a" fill-opacity="0.55" />
+
+  <!-- Avatar image -->
+  <image href="https://avatars.githubusercontent.com/u/2848257?v=4"
+         x="879" y="64" width="212" height="212"
+         clip-path="url(#avatarClip)"
+         preserveAspectRatio="xMidYMid slice" />
+
+  <!-- Slight dark vignette over avatar bottom for blend -->
+  <defs>
+    <radialGradient id="avatarVignette" cx="50%" cy="85%" r="55%">
+      <stop offset="0%"  stop-color="#06080d" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#06080d" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <circle cx="985" cy="170" r="106" fill="url(#avatarVignette)" clip-path="url(#avatarClip)" />
+
 </svg>
