@@ -9,7 +9,7 @@
 </div>
 
 <p align="center">
-  <strong>Head of Engineering</strong> · <strong>Full-stack Developer</strong>
+  <strong>Head of Engineering</strong>
 </p>
 
 <p align="center">
