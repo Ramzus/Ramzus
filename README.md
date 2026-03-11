@@ -2,10 +2,14 @@
   <img src="images/profile-banner.svg" width="100%" alt="Marcel Marquez profile banner" />
 </p>
 
-<h1 align="center">Marcel Marquez</h1>
+<div align="center">
+  <a href="https://github.com/ramzus/github-readme-stats"><img src="https://github-readme-stats-ramzus.vercel.app/api?username=ramzus&count_private=true&show_icons=true&theme=gotham&hide_border=true" height="165" alt="Ramzus' GitHub Stats" /></a>
+  &nbsp;
+  <a href="https://github.com/ramzus/github-readme-stats"><img src="https://github-readme-stats-ramzus.vercel.app/api/top-langs/?username=ramzus&layout=compact&theme=gotham&hide_border=true" height="165" alt="Top Languages" /></a>
+</div>
 
 <p align="center">
-  <strong>Head of Engineering</strong> · <strong>Full-stack Developer</strong> · <strong>Software Architect</strong>
+  <strong>Head of Engineering</strong> · <strong>Full-stack Developer</strong>
 </p>
 
 <p align="center">
@@ -100,9 +104,4 @@
 | Frontend | `JavaScript` `Vue` `HTML` `CSS` `Bootstrap` |
 | Data and platform | `PostgreSQL` `Kubernetes` `AWS` `GCP` `Git` |
 
-## GitHub Signal
 
-<div align="center">
-  <a href="https://github.com/ramzus/github-readme-stats"><img src="https://github-readme-stats-ramzus.vercel.app/api?username=ramzus&count_private=true&show_icons=true&theme=gotham&hide_border=true" height="180" alt="Ramzus' GitHub Stats" /></a>
-  <a href="https://github.com/ramzus/github-readme-stats"><img src="https://github-readme-stats-ramzus.vercel.app/api/top-langs/?username=ramzus&layout=compact&theme=gotham&hide_border=true" height="180" alt="Top Languages" /></a>
-</div>
