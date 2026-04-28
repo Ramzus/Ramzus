@@ -89,6 +89,8 @@
   &nbsp;&nbsp;
   <img src="images/sql.svg" width="44" alt="SQL" />
   &nbsp;&nbsp;
+  <img src="images/mongodb.svg" width="44" alt="MongoDB" />
+  &nbsp;&nbsp;
   <img src="images/git.svg" width="44" alt="Git" />
   &nbsp;&nbsp;
   <img src="images/html.svg" width="44" alt="HTML" />
@@ -103,5 +105,6 @@
 | Backend | `Java` `Node.js` `Go` `NestJS` |
 | Frontend | `JavaScript` `Vue` `HTML` `CSS` `Bootstrap` |
 | Data and platform | `PostgreSQL` `Kubernetes` `AWS` `GCP` `Git` |
+| Data and platform | `PostgreSQL` `MongoDB` `Kubernetes` `AWS` `GCP` `Git` |
 
 
