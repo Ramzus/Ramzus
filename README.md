@@ -104,7 +104,6 @@
 | :--- | :--- |
 | Backend | `Java` `Node.js` `Go` `NestJS` |
 | Frontend | `JavaScript` `Vue` `HTML` `CSS` `Bootstrap` |
-| Data and platform | `PostgreSQL` `Kubernetes` `AWS` `GCP` `Git` |
 | Data and platform | `PostgreSQL` `MongoDB` `Kubernetes` `AWS` `GCP` `Git` |
 
 
